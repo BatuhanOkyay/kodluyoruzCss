@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- ? Burada External css kullabilmek için linkleme işlemini yapıyoruz -->
+    <link rel="stylesheet" href="css/kodluyoruz.css">
+
+
+    <!--* ınternal kullanımı için burayı açtık süslü parantez içierisinde olmak zorunda -->
+    <style>
+        h2 {
+            color: deeppink;
+            font-size: 64px;
+        }
+        p {
+            color: aqua;
+            font-size: 55px;
+        }
+    </style>
+</head>
+<body>
+    <!-- * Inline CSS -> etiket içinde style kullanımı
+        ? Internal CSS -> head içerisine style açarak kullanılır.
+        ! External CSS -> farklı bi yerde durur ve linklenerek tanımlanır internette bile olsa alabiliriz 
+    -->
+
+    <h2>Lorem ipsum dolor sit.</h2>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <!-- * burada paragrafa kendimiz inline olarak style verirsek yukarıda bütün p leri aqua yap ve 55px yap demiştik ama burada inline olarak verdiğimiz için o tanımı ezecek ve en son dediğimizi yapacak -->
+
+    <p style="color: blueviolet; font-size: 35px;">Lorem ipsum dolor sit amet.</p>
+
+    <!-- * burada kodluyoruz.css dosyası içerisinde tanım verdiğimiz için yazdığımız oradaki tanıma uygun şekilde görüntülenir -->
+
+    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+    <h3>Burası kahverengi ve 60px olacak</h3>
+
+</body>
+</html>
