@@ -1,0 +1,35 @@
+/* * css de (class)siniflari belirtirken . koyariz  */
+/* * id ise #id-bilgisi seklinde kullanilir */
+
+/* ? ornegin baslangicta butun h1 ve p lerin font sizelerini verebiliriz */
+/*  * butun basliklarin renklerini bu sekilde ayarlayabiliriz */
+h1, h2, h3, h4, h5, h6 {
+    color: #2a97a3; 
+}
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#first-article {
+    font-size: 40px;
+}
+
+.text-red {
+    color: red;
+}
+/* *font size belirlemek istiyoruz o yuzden bu sekilde kullanabiliriz */
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
