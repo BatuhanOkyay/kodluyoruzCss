@@ -1,0 +1,12 @@
+/* css de yorum satirlari bu sekilde aciliyor */
+
+/* cmd+k cmd+c yaparak da yorum satiri olusturabilirim */
+
+/* ornegin bi yerde kaybolmamak icin onu gostermek istiyorsak sunun gibi bir ornek yapabiliriz */
+
+/************************* burayi unutma ***************************/
+
+/** eger bir metnin hepsinini buyuk harf olmasini istiyorsak bu sekilde kullaniriz */
+h1{
+    text-transform: uppercase;
+}
